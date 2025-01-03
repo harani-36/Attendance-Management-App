@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td.attendance {
+    cursor: pointer;
+}
+
+.absent {
+    background-color: rgb(245, 230, 230);
+    color: white;
+}
+
+.present {
+    background-color: rgb(125, 230, 125);
+    color: white;
+}
+
+td button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: rgb(241, 56, 56);
+    color: white;
+}
+
+.update {
+    background-color: rgb(66, 165, 172);
+    color: white;
+}
+
+/* Style for the Submit button */
+#submitButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #39b63d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: #8ee792;
+}
